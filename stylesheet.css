@@ -1,0 +1,60 @@
+#calculator {
+    display: grid;
+    height: 50%;
+    width: 30%;
+   padding-left: 450px;
+   border-radius: 20%
+   
+  
+}
+
+body{
+    background-color:lightpink;
+}
+.jumbotron{
+    font-family: fantasy;
+    background-color: white;
+    color: purple;
+    border-bottom-style: groove;
+    border-bottom-color: purple;
+    text-align: center;
+    font-weight: bold;
+    font-stretch: ultra-expanded;
+    font-size: 100px;
+    height: 170px;
+}
+input{
+    height: 100px;
+    width: 385px;
+    border: solid purple;
+    font-size: 40px;
+    border-radius: 25%;
+  
+}
+
+#numberPad {
+    
+     border: solid purple;
+     border-style:ridge;
+     display: grid;
+     grid-row-gap: 20px;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     background-color: white;
+     border-radius: 10%;
+     margin-top: 15px;
+     
+     
+ }   
+
+.numberButton{
+    width: 80px;
+    height: 80px;
+    box-shadow: 1px 1px 50px inset purple;
+    text-align: center; 
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    border-radius: 50%
+    
+}
+
